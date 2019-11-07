@@ -1,0 +1,63 @@
+.info{
+    text-align: center;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.550); 
+}
+
+.divTitulo {
+    color: azure;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.550);
+    min-width: 907px;
+    margin-left: -11px;
+  }
+
+.waves-effect.waves-brown .waves-ripple button{
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(121, 85, 72, 0.65);
+     color: #000;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.myButton {
+	box-shadow: 2px 2px 4px 0px forestgreen;
+	background:linear-gradient(to bottom, #1f2830 5%, #291717 100%);
+	background-color:#1f2830;
+	border-radius:10px;
+	border:1px solid #00050a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    padding:2px 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #291717 5%, #1f2830 100%);
+    background-color:#291717;
+    text-decoration: none;
+}
+.myButton:active {
+	position:relative;
+    top:1px;
+    text-decoration: none;
+}
+
+a:link {
+    color: azure;
+  }
+    
+a:hover {
+    color: rgb(51, 207, 51);
+  }
